@@ -22,7 +22,7 @@ You can also import the category from inside your `.pch` file so you can use `co
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import "UIColor+Extensions.h"
+    #import "UIColor+HexColor.h"
 #endif
 ```
 
